@@ -1,0 +1,163 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #FEFEFE;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+/* css reset code end */
+
+/* Header area start */
+.navbar-area {
+    padding-bottom: 60px;
+    background-color: #F0FFF0;
+}
+
+.navbar-brand img {
+    height: 50px;
+    width: 135px;
+}
+
+.navbar-nav {
+    margin-right: -0.5rem;
+    /* Thlis margin is for adjusting navbar padign*/
+}
+.navbar-nav button {
+    border: none;
+    width: 120px;
+    height: 45px;
+
+    background-color: #21B573;
+    color: #fff;
+    border-radius: 35px;
+}
+.nav-item {
+    line-height: 45px;
+}
+
+.slider-text-area h6 {
+    color: #FD511A;
+    margin-bottom: 10px;
+}
+
+.slider-text-area h1 {
+    font-weight: 800;
+    line-height: 69px;
+    margin-bottom: 10px;
+    font-size: 60px;
+}
+
+.slider-text-area h1 span {
+    color: #21B573;
+}
+
+.slider-text-area p {
+    color: #6C6B6B;
+    line-height: 35px;
+    margin-bottom: 20px;
+}
+
+.slider-text-area button {
+    border: none;
+    width: 180px;
+    height: 45px;
+    background-color: #21B573;
+    color: #fff;
+    border-radius: 35px;
+}
+
+
+.slider-area{
+    background-color: #F0FFF0;
+    padding-bottom: 60px;
+    margin-bottom: 50px;
+}
+
+.topic-area .card-img-top {
+    width: 70px;
+    height: 90px;
+    margin-top: 50px;
+}
+.topic-area .card-body{
+    margin-bottom: 6px;
+}
+.topic-area .card-body h4{
+    margin-bottom: 5px;
+}
+.topic-area .card{
+    background-color: #F8FFFB;
+    border-radius: 10px;
+    border: none;
+}
+.topic-area .card:hover{
+    background-color: #fff;
+    box-shadow: 0px 8px 20px #EAEAEA, 
+    -10px 8px 20px #EAEAEA, 10px 8px 20px #EAEAEA;
+
+}
+.topic-area{
+    margin-bottom: 80px;
+}
+
+
+
+.course-area-header h2{
+    font-weight: 700;
+    margin-bottom: 70px;
+}
+
+.course-area-header{
+    color: #413960;
+}
+.course-area .card-title{
+    color: #413960;
+}
+.course-area .card-text{
+    color:#585859
+}
+.course-area button{
+    border: none;
+    width: 120px;
+    height: 35px;
+    background-color: #21B573;
+    color: #fff;
+    border-radius: 35px;
+}
+
+
+.course-image-padding {
+    padding: 20px;
+    padding-bottom: 0px;
+}
+
+.card-footer {
+    border-top: none;
+    background-color: #FEFEFE;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 15px;
+    margin-bottom: 15px;
+}
+.right-content {
+    margin-left: 1px;
+}
+.card-footer img {
+    width: 15px;
+}
+.course-area .card-body{
+   padding-bottom: 8px;
+}
+.course-area .card{
+    border-radius: 25px;
+}
