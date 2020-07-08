@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #FEFEFE;
+    font-family: 'Poppins', sans-serif;
 }
 
 h1,
@@ -33,19 +34,22 @@ h6 {
     margin-right: -0.5rem;
     /* Thlis margin is for adjusting navbar padign*/
 }
+
 .navbar-nav button {
     border: none;
     width: 120px;
     height: 45px;
-
     background-color: #21B573;
     color: #fff;
     border-radius: 35px;
 }
+
 .nav-item {
     line-height: 45px;
+    margin-left: 20px;
 }
 
+/* Slider area Start */
 .slider-text-area h6 {
     color: #FD511A;
     margin-bottom: 10px;
@@ -78,55 +82,69 @@ h6 {
 }
 
 
-.slider-area{
+.slider-area {
     background-color: #F0FFF0;
     padding-bottom: 60px;
     margin-bottom: 50px;
 }
 
+/* Slider Area End */
+
+/* Topic Area Start */
 .topic-area .card-img-top {
     width: 70px;
     height: 90px;
     margin-top: 50px;
 }
-.topic-area .card-body{
+
+.topic-area .card-body {
     margin-bottom: 6px;
 }
-.topic-area .card-body h4{
+
+.topic-area .card-body h4 {
     margin-bottom: 5px;
 }
-.topic-area .card{
+
+.topic-area .card {
     background-color: #F8FFFB;
     border-radius: 10px;
     border: none;
 }
-.topic-area .card:hover{
+
+.topic-area .card:hover {
     background-color: #fff;
-    box-shadow: 0px 8px 20px #EAEAEA, 
-    -10px 8px 20px #EAEAEA, 10px 8px 20px #EAEAEA;
+    box-shadow: 0px 8px 20px #EAEAEA,
+        -10px 8px 20px #EAEAEA, 10px 8px 20px #EAEAEA;
 
 }
-.topic-area{
+
+.topic-area {
     margin-bottom: 80px;
 }
 
+/* Topic Area End */
 
-
-.course-area-header h2{
-    font-weight: 700;
+/* Course Area Start */
+.course-area-header h2 {
+    font-weight: 900;
+    font-size: 40px;
+    ;
     margin-bottom: 70px;
 }
 
-.course-area-header{
+.course-area-header {
     color: #413960;
 }
-.course-area .card-title{
+
+.course-area .card-title {
     color: #413960;
 }
-.course-area .card-text{
-    color:#585859
+
+.course-area .card-text {
+    color: #585859
 }
-.course-area button{
+
+.course-area button {
     border: none;
     width: 120px;
     height: 35px;
@@ -143,62 +161,184 @@ h6 {
 
 .card-footer {
     border-top: none;
+    color: #585859;
     background-color: #FEFEFE;
-    font-size: 11px;
+    font-size: 10px;
     font-weight: 600;
     line-height: 15px;
     margin-bottom: 15px;
 }
-.right-content {
-    margin-left: 1px;
-}
+
+
+
 .card-footer img {
     width: 15px;
+    padding-bottom: 3px;
+    margin-right: 3px;
 }
-.course-area .card-body{
-   padding-bottom: 8px;
+
+.course-area .card-body {
+    padding-bottom: 8px;
 }
+
 .course-area .card {
     border-radius: 25px;
-    margin-bottom: 80px;
+    margin-bottom: 45px;
     background-color: #fff;
     border: none;
     box-shadow: 0 0 25px #E5E5E5;
 }
 
+/* Course Area End */
+
+/* Additonal Area Start */
+/* Additonal Area Start */
+.additional-area-title {
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.additional-area-title h2 {
+    font-weight: 900;
+    font-size: 40px;
+    color: #413960;
+    margin-bottom: 25px;
+}
+
+.additional-area-title h2 span {
+    color: #21B573;
+}
+
+.single-pricing-box {
+    padding: 25px;
+    transition: 0.5s;
+    box-shadow: 0 0 25px #E5E5E5;
+    border-radius: 15px;
+}
+
+.price-count {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 15px;
+    margin-bottom: 6px;
+    transition: 0.3s;
+}
+
+.price-count:hover {
+    font-size: 28px;
+    margin-bottom: 0px;
+}
+
+.points {
+
+    font-size: 14px;
+    padding-bottom: 25px;
+}
+
+.points ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+a.bordered-btn {
+    background-color: #21B573;
+    border-radius: 15%/50%;
+    line-height: 25px;
+    color: white;
+    text-transform: capitalize;
+    transition: 0.6s;
+    padding: 8px 25px;
+    position: relative;
+    top: -12px;
+}
+
+a.bordered-btn:hover {
+    text-decoration: none;
+    text-decoration-style: none;
+    padding: 8px 35px;
+}
+
+.points ul li {
+    transition: 0.5s;
+}
+
+.points ul li:hover {
+    margin-left: 5px;
+
+}
+
+.points ul li::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f00c";
+    padding-right: 5px;
+    line-height: 30px;
+
+}
+
+.points ul .disabled::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f00d";
+    padding-right: 10px;
+    color: red;
+}
+
+.additonal-section {
+    margin-bottom: 90px;
+}
+
+/* Additonal Area End */
+/* Additonal Area End */
+
+/* Testimolinal Area Start */
 .t-body-area img {
     width: 100%;
 }
-.t-body-area{
+
+.t-body-area {
     height: 160px;
 }
+
 .t-area-header {
     font-weight: 900;
     font-size: 40px;
     margin-bottom: 60px;
 }
-.testimonial-area{
+
+.testimonial-area {
     margin-bottom: 80px;
 }
 
-.footer-area{
-    color:#fff;
+/* Testimolinal Area End */
+
+/* Footer Area Start */
+.footer-area {
+    color: #fff;
     padding-top: 50px;
 
     background-color: #282531;
 }
-.list-group{
-    background-color: #282531; 
+
+.list-group {
+    background-color: #282531;
 }
+
 .list-group ul {
     list-style: none;
     line-height: 30px;
     font-size: 14px;
 }
+
 .list-group ul li:first-child {
     font-weight: 800;
 }
+
 .copyright-area {
     padding: 80px;
     padding-bottom: 50px;
 }
+
+/* Footer Area End */
