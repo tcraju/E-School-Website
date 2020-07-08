@@ -17,9 +17,6 @@ h6 {
     padding: 0;
 }
 
-/* css reset code end */
-
-/* Header area start */
 .navbar-area {
     padding-bottom: 60px;
     background-color: #F0FFF0;
@@ -31,8 +28,7 @@ h6 {
 }
 
 .navbar-nav {
-    margin-right: -0.5rem;
-    /* Thlis margin is for adjusting navbar padign*/
+    margin-right: -.5rem;
 }
 
 .navbar-nav button {
@@ -49,7 +45,6 @@ h6 {
     margin-left: 20px;
 }
 
-/* Slider area Start */
 .slider-text-area h6 {
     color: #FD511A;
     margin-bottom: 10px;
@@ -81,16 +76,12 @@ h6 {
     border-radius: 35px;
 }
 
-
 .slider-area {
     background-color: #F0FFF0;
     padding-bottom: 60px;
     margin-bottom: 50px;
 }
 
-/* Slider Area End */
-
-/* Topic Area Start */
 .topic-area .card-img-top {
     width: 70px;
     height: 90px;
@@ -113,22 +104,16 @@ h6 {
 
 .topic-area .card:hover {
     background-color: #fff;
-    box-shadow: 0px 8px 20px #EAEAEA,
-        -10px 8px 20px #EAEAEA, 10px 8px 20px #EAEAEA;
-
+    box-shadow: 0 8px 20px #EAEAEA, -10px 8px 20px #EAEAEA, 10px 8px 20px #EAEAEA;
 }
 
 .topic-area {
     margin-bottom: 80px;
 }
 
-/* Topic Area End */
-
-/* Course Area Start */
 .course-area-header h2 {
     font-weight: 900;
     font-size: 40px;
-    ;
     margin-bottom: 70px;
 }
 
@@ -141,7 +126,7 @@ h6 {
 }
 
 .course-area .card-text {
-    color: #585859
+    color: #585859;
 }
 
 .course-area button {
@@ -153,10 +138,9 @@ h6 {
     border-radius: 35px;
 }
 
-
 .course-image-padding {
     padding: 20px;
-    padding-bottom: 0px;
+    padding-bottom: 0;
 }
 
 .card-footer {
@@ -168,8 +152,6 @@ h6 {
     line-height: 15px;
     margin-bottom: 15px;
 }
-
-
 
 .card-footer img {
     width: 15px;
@@ -189,13 +171,9 @@ h6 {
     box-shadow: 0 0 25px #E5E5E5;
 }
 
-/* Course Area End */
-
-/* Additonal Area Start */
-/* Additonal Area Start */
 .additional-area-title {
     text-align: center;
-    padding: 50px 0px;
+    padding: 50px 0;
 }
 
 .additional-area-title h2 {
@@ -211,7 +189,7 @@ h6 {
 
 .single-pricing-box {
     padding: 25px;
-    transition: 0.5s;
+    transition: .5s;
     box-shadow: 0 0 25px #E5E5E5;
     border-radius: 15px;
 }
@@ -222,16 +200,15 @@ h6 {
     font-weight: 600;
     padding-bottom: 15px;
     margin-bottom: 6px;
-    transition: 0.3s;
+    transition: .3s;
 }
 
 .price-count:hover {
     font-size: 28px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 .points {
-
     font-size: 14px;
     padding-bottom: 25px;
 }
@@ -246,9 +223,9 @@ a.bordered-btn {
     background-color: #21B573;
     border-radius: 15%/50%;
     line-height: 25px;
-    color: white;
+    color: #fff;
     text-transform: capitalize;
-    transition: 0.6s;
+    transition: .6s;
     padding: 8px 25px;
     position: relative;
     top: -12px;
@@ -261,12 +238,11 @@ a.bordered-btn:hover {
 }
 
 .points ul li {
-    transition: 0.5s;
+    transition: .5s;
 }
 
 .points ul li:hover {
     margin-left: 5px;
-
 }
 
 .points ul li::before {
@@ -275,7 +251,6 @@ a.bordered-btn:hover {
     content: "\f00c";
     padding-right: 5px;
     line-height: 30px;
-
 }
 
 .points ul .disabled::before {
@@ -290,10 +265,6 @@ a.bordered-btn:hover {
     margin-bottom: 90px;
 }
 
-/* Additonal Area End */
-/* Additonal Area End */
-
-/* Testimolinal Area Start */
 .t-body-area img {
     width: 100%;
 }
@@ -312,13 +283,9 @@ a.bordered-btn:hover {
     margin-bottom: 80px;
 }
 
-/* Testimolinal Area End */
-
-/* Footer Area Start */
 .footer-area {
     color: #fff;
     padding-top: 50px;
-
     background-color: #282531;
 }
 
@@ -340,5 +307,3 @@ a.bordered-btn:hover {
     padding: 80px;
     padding-bottom: 50px;
 }
-
-/* Footer Area End */
