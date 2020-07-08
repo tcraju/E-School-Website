@@ -158,6 +158,47 @@ h6 {
 .course-area .card-body{
    padding-bottom: 8px;
 }
-.course-area .card{
+.course-area .card {
     border-radius: 25px;
+    margin-bottom: 80px;
+    background-color: #fff;
+    border: none;
+    box-shadow: 0 0 25px #E5E5E5;
+}
+
+.t-body-area img {
+    width: 100%;
+}
+.t-body-area{
+    height: 160px;
+}
+.t-area-header {
+    font-weight: 900;
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+.testimonial-area{
+    margin-bottom: 80px;
+}
+
+.footer-area{
+    color:#fff;
+    padding-top: 50px;
+
+    background-color: #282531;
+}
+.list-group{
+    background-color: #282531; 
+}
+.list-group ul {
+    list-style: none;
+    line-height: 30px;
+    font-size: 14px;
+}
+.list-group ul li:first-child {
+    font-weight: 800;
+}
+.copyright-area {
+    padding: 80px;
+    padding-bottom: 50px;
 }
