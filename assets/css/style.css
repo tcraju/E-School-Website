@@ -17,6 +17,8 @@ h6 {
     padding: 0;
 }
 
+/* Navbar Area Start */
+
 .navbar-area {
     padding-bottom: 60px;
     background-color: #F0FFF0;
@@ -44,7 +46,9 @@ h6 {
     line-height: 45px;
     margin-left: 20px;
 }
+/* Navbar Area End */
 
+/* Slider Area Start */
 .slider-text-area h6 {
     color: #FD511A;
     margin-bottom: 10px;
@@ -81,7 +85,9 @@ h6 {
     padding-bottom: 60px;
     margin-bottom: 50px;
 }
+/* Slider Area End */
 
+/* Topic Area Start */
 .topic-area .card-img-top {
     width: 70px;
     height: 90px;
@@ -110,7 +116,9 @@ h6 {
 .topic-area {
     margin-bottom: 80px;
 }
+/* Topic Area End */
 
+/* Course Area Start */
 .course-area-header h2 {
     font-weight: 900;
     font-size: 40px;
@@ -170,7 +178,10 @@ h6 {
     border: none;
     box-shadow: 0 0 25px #E5E5E5;
 }
+/* Course Area End */
 
+/* Aditional Area/ Pricing Area Start */
+/* Aditional Area/ Pricing Area Start */ 
 .additional-area-title {
     text-align: center;
     padding: 50px 0;
@@ -219,7 +230,7 @@ h6 {
     margin-bottom: 15px;
 }
 
-a.bordered-btn {
+a.pricing-area-btn {
     background-color: #21B573;
     border-radius: 15%/50%;
     line-height: 25px;
@@ -231,7 +242,7 @@ a.bordered-btn {
     top: -12px;
 }
 
-a.bordered-btn:hover {
+a.pricing-area-btn:hover {
     text-decoration: none;
     text-decoration-style: none;
     padding: 8px 35px;
@@ -264,7 +275,10 @@ a.bordered-btn:hover {
 .additonal-section {
     margin-bottom: 90px;
 }
+/* Aditional Area/ Pricing Area End */ 
+/* Aditional Area/ Pricing Area End */ 
 
+/* Testimonial Area Start */
 .t-body-area img {
     width: 100%;
 }
@@ -282,7 +296,9 @@ a.bordered-btn:hover {
 .testimonial-area {
     margin-bottom: 140px;
 }
+/* Testimonial Area End */
 
+/* Footer Area Start */
 .footer-area {
     color: #fff;
     padding-top: 50px;
@@ -307,3 +323,4 @@ a.bordered-btn:hover {
     padding: 80px;
     padding-bottom: 50px;
 }
+/* Footer Area Start */
