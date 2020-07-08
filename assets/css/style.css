@@ -23,8 +23,8 @@ h6 {
 }
 
 .navbar-brand img {
-    height: 50px;
-    width: 135px;
+    height: 60px;
+    width: 198px;
 }
 
 .navbar-nav {
@@ -52,8 +52,8 @@ h6 {
 
 .slider-text-area h1 {
     font-weight: 800;
-    line-height: 69px;
-    margin-bottom: 10px;
+    line-height: 75px;
+    margin-bottom: 15px;
     font-size: 60px;
 }
 
@@ -64,7 +64,7 @@ h6 {
 .slider-text-area p {
     color: #6C6B6B;
     line-height: 35px;
-    margin-bottom: 20px;
+    margin-bottom: 29px;
 }
 
 .slider-text-area button {
@@ -280,7 +280,7 @@ a.bordered-btn:hover {
 }
 
 .testimonial-area {
-    margin-bottom: 80px;
+    margin-bottom: 140px;
 }
 
 .footer-area {

@@ -1,67 +1,266 @@
-/*Medium Layout: 1200px*/
-@media only screen and (min-width:992px) and (max-width:1200px){
-    .slider-text-area {
-        padding-top: 70px;
+@media only screen and (min-width:992px) and (max-width:1200px) {
+    .slider-text-area h1 {
+        font-weight: 700;
+        line-height: 60px;
+        margin-bottom: 7px;
+        font-size: 50px
     }
-    .slider-area{
-        height: 600px;
+
+    .slider-text-area p {
+        line-height: 27px;
+        margin-bottom: 26px
     }
-    .carousel-indicators {
-        top: 440px;
+
+    .topic-area .card-img-top {
+        width: 60px;
+        height: 70px;
+        margin-top: 42px
+    }
+
+    .topic-area .card-body h4 {
+        font-size: 22px
+    }
+
+    .points {
+        font-size: 12px
+    }
+
+    .single-pricing-box {
+        padding: 23px
+    }
+
+    .testimonial-area p {
+        font-size: 13px
     }
 }
 
 
-/*Tablet Layout: 768px*/
-@media only screen and (min-width:768px) and (max-width:991px){
-    .slider-text-area {
-        padding-top: 30px;
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .align-self-center {
+        font-size: 13px
     }
-    .carousel-indicators {
-        position: absolute;
-        top: 330px;
+
+    .slider-text-area h1 {
+        font-weight: 700;
+        line-height: 36px;
+        margin-bottom: 8px;
+        font-size: 34px
     }
-    .slider-area{
-        height: 500px;
+
+    .slider-text-area p {
+        line-height: 20px;
+        margin-bottom: 6px;
+        font-size: 14px
     }
-    /*.carousel-control-prev , .carousel-control-next{
-        
-    }*/
+
+    .slider-text-area button {
+        width: 130px;
+        height: 32px
+    }
+
+    .topic-area .card-img-top {
+        width: 65px;
+        height: 75px;
+        margin-top: 29px
+    }
+
+    .topic-area .card-body h4 {
+        font-size: 22px
+    }
+
+    .topic-area .card-body {
+        margin-bottom: -12px
+    }
+
+    .topic-area .card-body p {
+        font-size: 14px
+    }
+
+    .course-area button {
+        width: 110px;
+        height: 30px;
+        font-size: 14px
+    }
+
+    .course-area-header h2,
+    .additional-area-title h2 {
+        font-size: 30px
+    }
+
+    .points {
+        font-size: 10px;
+        padding-bottom: 5px
+    }
+
+    .single-pricing-box {
+        padding: 10px
+    }
+
+    .price-count {
+        font-size: 20px;
+        font-weight: 500;
+        padding-bottom: 5px;
+        margin-bottom: 3px
+    }
+
+    a.bordered-btn {
+        padding: 8px 12px;
+        font-size: 10px
+    }
+
+    .price-count:hover {
+        font-size: 22px;
+        margin-bottom: 0
+    }
+
+    a.bordered-btn:hover {
+        padding: 8px 20px
+    }
+
+    .testimonial-area {
+        margin-bottom: 90px
+    }
 }
 
 
-/*Mobile Layout: 320px*/
-@media only screen and (max-width:767px){
-    .slider-text-area {
-    padding-top: 0px;
-}
-.slider-text-area h1 {
-    font-size: 30px;
-    margin: 0px;
+
+@media only screen and (max-width:767px) {
+    .slider-text-area h1 {
+        line-height: 22px;
+        margin-bottom: 5px;
+        font-size: 22px
+    }
+
+    .slider-text-area p {
+        line-height: 17px;
+        margin-bottom: 5px;
+        font-size: 12px
+    }
+
+    .slider-text-area h6 {
+        margin-bottom: 5px;
+        font-size: 12px
+    }
+
+    .slider-text-area button {
+        width: 100px;
+        height: 25px;
+        font-size: 12px
+    }
+
+    .navbar-area {
+        padding-bottom: 20px
+    }
+
+    .slider-area {
+        padding-bottom: 35px;
+        margin-bottom: 30px
+    }
+
+    .topic-area .card-img-top {
+        width: 35px;
+        height: 40px;
+        margin-top: 18px
+    }
+
+    .topic-area .card-body {
+        font-size: 10px
+    }
+
+    .topic-area .card-body h4 {
+        font-size: 14px
+    }
+
+    .card-body {
+        padding-bottom: 0
+    }
+
+    .topic-area {
+        margin-bottom: 45px
+    }
+
+    .course-area-header h2 {
+        font-size: 26px;
+        margin-bottom: 45px
+    }
+
+    .course-area .card-title {
+        font-size: 18px;
+        text-align: center
+    }
+
+    .course-area .card-text {
+        font-size: 14px;
+        text-align: center
+    }
+
+    .course-area button {
+        width: 100px;
+        font-size: 12px;
+        position: relative;
+        left: 50%;
+        margin-left: -50px
+    }
+
+    .course-area .card {
+        margin-bottom: 5px
+    }
+
+    .single-pricing-box {
+        margin-bottom: 30px
+    }
+
+    .additional-area-title h2 {
+        font-size: 26px
+    }
+
+    .testimonial-area h2 {
+        font-size: 26px
+    }
+
+    .testimonial-area p {
+        font-size: 12px
+    }
+
+    .footer-area {
+        font-size: 14px
+    }
+
+    .list-group ul {
+        line-height: 20px;
+        font-size: 12px
+    }
+
+    .testimonial-area {
+        margin-bottom: 50px
+    }
+
+    .additonal-section {
+        margin-bottom: 60px
+    }
 }
 
-.carousel-item button{
-    display: none;
-}
-.carousel-control-next, .carousel-control-prev {
-    display: none;
-}
-.carousel-item img{
-    width: 85% !important;
-}
-.slider-text-area p {
-    margin-bottom: 10px;
-}
-.carousel-indicators {
-    position: absolute;
-    top: 520px;
-}
 
+
+@media only screen and (max-width:575px) {
+    .t-body-area img {
+        width: 25%;
+        position: relative;
+        left: 50%;
+        margin-left: -12.5%;
+        margin-bottom: 20px
+    }
+
+    .footer-area {
+        margin-top: 70px
+    }
+
+    .testimonial-area p {
+        text-align: center
+    }
+
+    .footer-area {
+        text-align: center
+    }
 }
-
-/* Wide Mobile Layout: 320px*/
-@media only screen and (min-wedth:480px) and (max-width:767px){
-
-    
-}
-
